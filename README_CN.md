@@ -24,9 +24,9 @@
 
 ### 🌟 Featured Projects
 
- <div style="text-align: center;">
+<p align="center">
   <img src="assets/air-components-board.png" alt="Social Board" width="300" />
-</div>
+</p>
 
 - [Air Components](https://github.com/SisyphusZheng/air-components)：一个极简的 Web Components 库，旨在实现无缝集成与现代化设计
 
@@ -36,8 +36,8 @@
 
 ### 📊 GitHub 统计
 
-<div style="text-align: center;">
+<p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=SisyphusZheng" alt="Anurag's GitHub stats" width="300" />
-</div>
+</p>
 
 #### 欢迎探索我的代码库，如果你喜欢，请记得点 ⭐ 支持
