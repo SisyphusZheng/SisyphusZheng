@@ -1,6 +1,6 @@
 ## Hi there! 👋 Welcome to my GitHub profile!
 
-[中文](https://github.com/SisyphusZheng/SisyphusZheng/blob/main/README.md)
+[中文](https://github.com/SisyphusZheng/SisyphusZheng/blob/main/README_CN.md)
 
 I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus on building modern and innovative solutions.
 
@@ -26,7 +26,7 @@ I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus
 
 ### 🌟 Featured Projects
 
-  ![Social Board](assets/air-components-board.png)
+ <img src="assets/air-components-board.png" alt="Social Board" width="300" />
 
 - [Air Components](https://github.com/SisyphusZheng/air-components): A minimalistic Web Components library designed for seamless integration and modern design
 
