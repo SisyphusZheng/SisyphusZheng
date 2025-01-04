@@ -36,7 +36,9 @@ I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus
 
 <p align="center">
   You can search for aircomponents on Google, and the link that comes up first is the one you want: 
-</p>[aircomponents.org](https://aircomponents.org)
+</p>
+
+[aircomponents.org](https://aircomponents.org)
 
 <p align="center">
   <img src="assets/air-components-board.png" alt="Social Board" width="300" />
