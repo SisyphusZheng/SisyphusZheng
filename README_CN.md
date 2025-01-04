@@ -32,7 +32,9 @@
 
 - [Air Components](https://github.com/SisyphusZheng/air-components)：一个极简风格的网页组件库，旨在实现无缝集成和现代设计。 
 
+<p align="center">
  您可以在谷歌上搜索aircomponents，第一个出现的链接就是您想要的：[aircomponents.org](https://aircomponents.org)
+</p>
 
 <p align="center">
   <img src="assets/air-components-board.png" alt="Social Board" width="300" />
@@ -40,7 +42,7 @@
 
 ### 🌐 社区贡献
 
-  **CSDN 社区贡献**：在 CSDN 社区积累了 2k+ 粉丝，300k+ 阅读量，六篇博文被松山湖开发者村和开放原子基金会等社区收录。
+- **CSDN 社区贡献**：在 CSDN 社区积累了 2k+ 粉丝，300k+ 阅读量，六篇博文被松山湖开发者村和开放原子基金会等社区收录。
 
 ### 📊 GitHub 统计
 
