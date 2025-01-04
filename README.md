@@ -32,11 +32,13 @@ I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus
 
 ### 🌟 Featured Projects
 
+- [Air Components](https://github.com/SisyphusZheng/air-components):A minimalist web component library designed for seamless integration and modern design. 
+  You can search for aircomponents on Google, and the link that comes up first is the one you want: [aircomponents.org](https://aircomponents.org)
+
 <p align="center">
   <img src="assets/air-components-board.png" alt="Social Board" width="300" />
 </p>
 
-- [Air Components](https://github.com/SisyphusZheng/air-components): A minimalistic Web Components library designed for seamless integration and modern design
 
 ### 🌐 Community Contributions
 

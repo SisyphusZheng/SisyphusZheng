@@ -2,11 +2,17 @@
 
 我是 **郑治**，一名充满热情的开发者与设计工程师，专注于构建现代化与创新型的解决方案。
 
-### 我正在学习
+### 🌱 技术栈
 
-- 全栈 JavaScript 开发，重点研究 React 的替代方案以及原生 Web 技术
-
-- 探索模块化网页设计，并为开发者打造可复用的工具
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
+![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white&style=flat)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)
+![Web Components](https://img.shields.io/badge/-Web%20Components-29ABE2?logo=webcomponents.org&logoColor=white&style=flat)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=flat)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat)
 
 ### 🎓 教育背景
 
@@ -24,11 +30,13 @@
 
 ### 🌟 Featured Projects
 
+- [Air Components](https://github.com/SisyphusZheng/air-components)：一个极简风格的网页组件库，旨在实现无缝集成和现代设计。 
+
+ 您可以在谷歌上搜索aircomponents，第一个出现的链接就是您想要的：[aircomponents.org](https://aircomponents.org)
+
 <p align="center">
   <img src="assets/air-components-board.png" alt="Social Board" width="300" />
 </p>
-
-- [Air Components](https://github.com/SisyphusZheng/air-components)：一个极简的 Web Components 库，旨在实现无缝集成与现代化设计
 
 ### 🌐 社区贡献
 
