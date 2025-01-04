@@ -26,7 +26,9 @@ I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus
 
 ### 🌟 Featured Projects
 
- <img src="assets/air-components-board.png" alt="Social Board" width="300" />
+ <figure style="text-align: center;">
+  <img src="assets/air-components-board.png" alt="Social Board" width="300" />
+</figure>
 
 - [Air Components](https://github.com/SisyphusZheng/air-components): A minimalistic Web Components library designed for seamless integration and modern design
 
@@ -36,6 +38,10 @@ I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus
 
 ### 📊 GitHub Stats
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SisyphusZheng)](https://github.com/SisyphusZheng/github-readme-stats)  
+<figure style="text-align: center;">
+  <a href="https://github.com/SisyphusZheng/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=SisyphusZheng" alt="Anurag's GitHub stats" />
+  </a>
+</figure>
 
 Feel free to explore my repositories and drop a ⭐ if you like what you see!
