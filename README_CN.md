@@ -1,6 +1,6 @@
-你好！👋 欢迎访问我的 GitHub 主页！
+## Hi there! 👋 Welcome to my GitHub profile!
 
-I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus on building modern and innovative solutions.
+我是 **郑治**，一名充满热情的开发者与设计工程师，专注于构建现代化与创新型的解决方案。
 
 ### 我正在学习
 
@@ -24,7 +24,9 @@ I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus
 
 ### 🌟 Featured Projects
 
- ![Social Board](assets/air-components-board.png)
+ <div style="text-align: center;">
+  <img src="assets/air-components-board.png" alt="Social Board" width="300" />
+</div>
 
 - [Air Components](https://github.com/SisyphusZheng/air-components)：一个极简的 Web Components 库，旨在实现无缝集成与现代化设计
 
@@ -34,6 +36,8 @@ I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus
 
 ### 📊 GitHub 统计
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SisyphusZheng)](https://github.com/SisyphusZheng/github-readme-stats)
+<div style="text-align: center;">
+    <img src="https://github-readme-stats.vercel.app/api?username=SisyphusZheng" alt="Anurag's GitHub stats" width="300" />
+</div>
 
-欢迎探索我的代码库，如果你喜欢，请记得点 ⭐ 支持!
+#### 欢迎探索我的代码库，如果你喜欢，请记得点 ⭐ 支持

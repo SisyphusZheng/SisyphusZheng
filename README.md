@@ -20,15 +20,15 @@ I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus
 
 - Actively seeking roles as a **Frontend Developer**, **Web Developer**, or **Full-Stack Developer** where I can contribute to innovative projects and grow my expertise in modern web technologies.  
 
-### 📫 How to reach me / 联系方式
+### 📫 How to reach me
 
 - **Email**: [freemanzheng@hotmail.com](freemanzheng@hotmail.com)
 
 ### 🌟 Featured Projects
 
- <div style="text-align: center;">
+<p align="center">
   <img src="assets/air-components-board.png" alt="Social Board" width="300" />
-</div>
+</p>
 
 - [Air Components](https://github.com/SisyphusZheng/air-components): A minimalistic Web Components library designed for seamless integration and modern design
 
