@@ -53,4 +53,6 @@ I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus
     <img src="https://github-readme-stats.vercel.app/api?username=SisyphusZheng" alt="Anurag's GitHub stats" width="300" />
 </p>
 
+[![SisyphusZheng's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=SisyphusZheng)](https://github.com/SisyphusZheng/github-readme-activity-graph)
+
 Feel free to explore my repositories and drop a ⭐ if you like what you see
