@@ -30,12 +30,12 @@ I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus
 
 - **Email**: [freemanzheng@hotmail.com](freemanzheng@hotmail.com)
 
-### 🌟 Featured Projects
+### 🌟 Toy Projects
 
 - [Air Components](https://github.com/SisyphusZheng/air-components):A minimalist web component library designed for seamless integration and modern design. 
 
 <p align="center">
- You can search for aircomponents on Google, and the first link that appears is my project: <a href="https://aircomponents.org">aircomponents.org</a>
+You can search for AirComponents on Google, and the first link that appears is my project: <a href="https://aircomponents.org">aircomponents.org</a>. I am honored to be featured among the Awesome Stencil component libraries, thanks to the incredible Stencil Community.
 </p>
 
 <p align="center">
