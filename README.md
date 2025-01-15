@@ -34,10 +34,8 @@ I'm **ZhiZheng**, a passionate developer and design engineer with a strong focus
 
 - [Air Components](https://github.com/SisyphusZheng/air-components):A minimalist web component library designed for seamless integration and modern design. 
 
-<p align="center">
 Search for **AirComponents** on Google, and the first link that appears is my project: [aircomponents.org](https://aircomponents.org).  
 Grateful to be listed as part of the component libraries in the **Stencil Community**, thanks to their incredible support!
-</p>
 
 <p align="center">
   <img src="assets/air-components-board.png" alt="Social Board" width="300" />
