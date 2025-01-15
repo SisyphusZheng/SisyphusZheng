@@ -32,9 +32,8 @@
 
 - [Air Components](https://github.com/SisyphusZheng/air-components)：一个极简风格的网页组件库，旨在实现无缝集成和现代设计。 
 
-<p align="center">
- 您可以在谷歌上搜索aircomponents，第一个出现的链接就是我的项目：<a href="https://aircomponents.org">aircomponents.org</a>
-</p>
+在谷歌上搜索AirComponents，第一个出现的链接就是我的项目：aircomponents.org。
+感谢Stencil Community的大力支持，让我能够成为其组件库的一部分！
 
 <p align="center">
   <img src="assets/air-components-board.png" alt="Social Board" width="300" />
