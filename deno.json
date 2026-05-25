@@ -1,0 +1,32 @@
+{
+  "imports": {
+    "vite": "npm:vite@8.0.10",
+    "@lessjs/app": "jsr:@lessjs/app@^0.21.16",
+    "@lessjs/adapter-lit": "jsr:@lessjs/adapter-lit@^0.21.16",
+    "@lessjs/adapter-vite": "jsr:@lessjs/adapter-vite@^0.21.16",
+    "@lessjs/content": "jsr:@lessjs/content@^0.21.16",
+    "@lessjs/core": "jsr:@lessjs/core@^0.21.16",
+    "@lessjs/core/navigation": "jsr:@lessjs/core@^0.21.16/navigation",
+    "@lessjs/i18n": "jsr:@lessjs/i18n@^0.21.16",
+    "@lessjs/signals": "jsr:@lessjs/signals@^0.21.16",
+    "@lessjs/signals/framework": "jsr:@lessjs/signals@^0.21.16/framework",
+    "@lessjs/ui": "jsr:@lessjs/ui@^0.21.16",
+    "@lessjs/ui/open-props-tokens": "jsr:@lessjs/ui@^0.21.16/open-props-tokens",
+    "@lessjs/ui/": "jsr:@lessjs/ui@^0.21.16/",
+    "hono": "npm:hono@^4.7.0",
+    "hono/secure-headers": "npm:hono@^4.7.0/secure-headers",
+    "parse5": "npm:parse5@^7.3.0",
+    "entities": "npm:entities@^6.0.0",
+    "entities/lib/escape.js": "npm:entities@^6.0.0/lib/escape.js"
+  },
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "dev": "deno run --config deno.json -A npm:vite",
+    "build": "deno run --config deno.json -A jsr:@lessjs/adapter-vite@^0.21.16/cli/build && deno run -A scripts/fix-charset.ts",
+    "build:ssr": "deno run --config deno.json -A npm:vite build",
+    "build:client": "deno run --config deno.json -A jsr:@lessjs/adapter-vite@^0.21.16/cli/build-client",
+    "build:ssg": "deno run --config deno.json -A jsr:@lessjs/adapter-vite@^0.21.16/cli/build-ssg",
+    "preview": "deno run --config deno.json -A npm:vite preview"
+  },
+  "compilerOptions": { "lib": ["ES2022", "DOM", "DOM.Iterable"] }
+}
