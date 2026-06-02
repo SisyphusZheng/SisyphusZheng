@@ -1,6 +1,16 @@
 {
   "version": "5",
   "specifiers": {
+    "jsr:@lessjs/adapter-vite@~0.28.5": "0.28.5",
+    "jsr:@lessjs/app@~0.28.5": "0.28.5",
+    "jsr:@lessjs/cem@~0.28.5": "0.28.5",
+    "jsr:@lessjs/compat-check@~0.28.5": "0.28.5",
+    "jsr:@lessjs/content@~0.28.5": "0.28.5",
+    "jsr:@lessjs/core@~0.28.5": "0.28.5",
+    "jsr:@lessjs/i18n@~0.28.5": "0.28.5",
+    "jsr:@lessjs/signals@~0.28.5": "0.28.5",
+    "jsr:@lessjs/style-sheet@~0.28.5": "0.28.5",
+    "jsr:@lessjs/ui@~0.28.5": "0.28.5",
     "npm:@deno/vite-plugin@*": "2.0.2_vite@8.0.10__@types+node@22.19.19__esbuild@0.25.12_@types+node@22.19.19_esbuild@0.25.12",
     "npm:@hono/vite-dev-server@~0.25.3": "0.25.3_hono@4.12.23",
     "npm:@lit-labs/ssr-dom-shim@^1.5.0": "1.6.0",
@@ -27,6 +37,82 @@
     "npm:vite@*": "8.0.10_@types+node@22.19.19_esbuild@0.25.12",
     "npm:vite@8.0.10": "8.0.10_@types+node@22.19.19_esbuild@0.25.12",
     "npm:ws@^8.20.1": "8.21.0"
+  },
+  "jsr": {
+    "@lessjs/adapter-vite@0.28.5": {
+      "integrity": "fab9027158e6333d46e8bd8ccf3fe9011002dafa7737bf5b0e851e9c1dc85405",
+      "dependencies": [
+        "jsr:@lessjs/cem",
+        "jsr:@lessjs/compat-check",
+        "jsr:@lessjs/content",
+        "jsr:@lessjs/core",
+        "npm:@hono/vite-dev-server",
+        "npm:@mdx-js/rollup",
+        "npm:esbuild",
+        "npm:hono",
+        "npm:sanitize-html",
+        "npm:vite@8.0.10"
+      ]
+    },
+    "@lessjs/app@0.28.5": {
+      "integrity": "a87e0ee53252a47f0695601aee199c00ac65b2e322bf49095c3050093a113a8a",
+      "dependencies": [
+        "jsr:@lessjs/adapter-vite",
+        "jsr:@lessjs/content",
+        "jsr:@lessjs/core",
+        "jsr:@lessjs/i18n"
+      ]
+    },
+    "@lessjs/cem@0.28.5": {
+      "integrity": "af8de4be70cea70b58fe339a190366658152246b06097ca1b53b0fc7d8707fe7",
+      "dependencies": [
+        "jsr:@lessjs/core"
+      ]
+    },
+    "@lessjs/compat-check@0.28.5": {
+      "integrity": "a2849bdf654816fb68e23fed57c04ffb4c9be649ee7a8f10e208ed9112d9c1b5",
+      "dependencies": [
+        "jsr:@lessjs/core"
+      ]
+    },
+    "@lessjs/content@0.28.5": {
+      "integrity": "0977ca74de7dafd3522fd3e2bf10b9f846fdabb7bbb5d368dd2df576e7ad6c2a",
+      "dependencies": [
+        "jsr:@lessjs/core",
+        "npm:@mdx-js/mdx",
+        "npm:gray-matter",
+        "npm:marked",
+        "npm:sanitize-html"
+      ]
+    },
+    "@lessjs/core@0.28.5": {
+      "integrity": "917ecefc1261b2f8f6085a8113aba130b99792a805e7f1e92776129d553cffce",
+      "dependencies": [
+        "jsr:@lessjs/signals",
+        "npm:sanitize-html"
+      ]
+    },
+    "@lessjs/i18n@0.28.5": {
+      "integrity": "f3e130166d3b1232ef3690908285cd14da1f52ad115969659b8f738b55a20be3",
+      "dependencies": [
+        "jsr:@lessjs/core"
+      ]
+    },
+    "@lessjs/signals@0.28.5": {
+      "integrity": "b79d391b83115b9bd22971024432f09b09d404de6aba2103fd08c674ce2b158d",
+      "dependencies": [
+        "npm:alien-signals"
+      ]
+    },
+    "@lessjs/style-sheet@0.28.5": {
+      "integrity": "693948142c472455dd120606ebba89900942874b18677e5bbd83e28ca8a099d4"
+    },
+    "@lessjs/ui@0.28.5": {
+      "integrity": "34ffbb2376405048bcf552280b5e582a832f1665dfe92de49c903e0ead6b9906",
+      "dependencies": [
+        "jsr:@lessjs/style-sheet"
+      ]
+    }
   },
   "npm": {
     "@deno/vite-plugin@2.0.2_vite@8.0.10__@types+node@22.19.19__esbuild@0.25.12_@types+node@22.19.19_esbuild@0.25.12": {
@@ -1791,6 +1877,21 @@
   },
   "workspace": {
     "dependencies": [
+      "jsr:@lessjs/adapter-lit@~0.28.5",
+      "jsr:@lessjs/adapter-react@~0.28.5",
+      "jsr:@lessjs/adapter-vanilla@~0.28.5",
+      "jsr:@lessjs/adapter-vite@~0.28.5",
+      "jsr:@lessjs/app@~0.28.5",
+      "jsr:@lessjs/cem@~0.28.5",
+      "jsr:@lessjs/compat-check@~0.28.5",
+      "jsr:@lessjs/content@~0.28.5",
+      "jsr:@lessjs/core@~0.28.5",
+      "jsr:@lessjs/i18n@~0.28.5",
+      "jsr:@lessjs/protocols@~0.28.5",
+      "jsr:@lessjs/runtime@~0.28.5",
+      "jsr:@lessjs/signals@~0.28.5",
+      "jsr:@lessjs/style-sheet@~0.28.5",
+      "jsr:@lessjs/ui@~0.28.5",
       "npm:@deno/vite-plugin@*",
       "npm:@hono/vite-dev-server@~0.25.3",
       "npm:@lit-labs/ssr-dom-shim@^1.5.0",
