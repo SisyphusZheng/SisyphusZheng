@@ -84,8 +84,9 @@
   },
   "nodeModulesDir": "auto",
   "tasks": {
-    "generate:data": "deno run --config deno.json --allow-read --allow-write scripts/generate-data.ts",
-    "build": "deno run -A --config deno.json scripts/build.ts",
+    "generate:data": "deno run -A --config deno.json scripts/generate-data.ts",
+    "build:vite": "deno run -A --config deno.json jsr:@lessjs/adapter-vite/cli/build",
+    "build": "deno task generate:data && deno task build:vite",
     "dev": "deno run --config deno.json --allow-read --allow-write --allow-run --allow-env --allow-net scripts/dev.ts",
     "preview": "deno run --config deno.json --allow-read --allow-net scripts/preview.ts"
   },
