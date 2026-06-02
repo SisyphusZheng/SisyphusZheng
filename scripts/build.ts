@@ -14,15 +14,8 @@ const genCommand = new Deno.Command(Deno.execPath(), {
 const generated = await genCommand.output();
 if (!generated.success) Deno.exit(generated.code);
 
-// Step 2: Run Vite build IN-PROCESS.
-// Using `await import('vite')` avoids spawning a subprocess,
-// which prevents Deno permission inheritance issues with the
-// Node compat layer (picocolors accessing process.env.CI).
-const { build: viteBuild } = await import('vite');
-
-try {
-  await viteBuild({ configLoader: 'native' });
-} catch (error) {
-  console.error('Build failed:', error);
-  Deno.exit(1);
-}
+// Step 2: Run Vite build via adapter-vite CLI (in-process).
+// Using `await import()` instead of `Deno.Command` avoids spawning a
+// subprocess, which prevents Deno permission inheritance issues with the
+// Node compat layer (picocolors accessing process.env.CI in a new sandbox).
+await import('jsr:@lessjs/adapter-vite/cli/build');
