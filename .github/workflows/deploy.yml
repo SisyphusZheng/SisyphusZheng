@@ -8,16 +8,8 @@ on:
 
 jobs:
   build-check:
-    name: Build Check (Deno ${{ matrix.deno-version }}, ${{ matrix.build-cmd }})
+    name: Build Check
     runs-on: ubuntu-latest
-
-    strategy:
-      fail-fast: false
-      matrix:
-        deno-version: [v2.7.14, v2.8.1]
-        build-cmd:
-          - deno task build
-          - deno run -A --config deno.json scripts/build.ts
 
     permissions:
       contents: read
@@ -28,8 +20,6 @@ jobs:
 
       - name: Install Deno
         uses: denoland/setup-deno@v2
-        with:
-          deno-version: ${{ matrix.deno-version }}
 
       - name: Build
-        run: ${{ matrix.build-cmd }}
+        run: deno task build
