@@ -1,5 +1,3 @@
-import { build as viteBuild } from 'npm:vite';
-
 const command = new Deno.Command(Deno.execPath(), {
   args: [
     'run',
@@ -16,4 +14,23 @@ const command = new Deno.Command(Deno.execPath(), {
 const generated = await command.output();
 if (!generated.success) Deno.exit(generated.code);
 
-await viteBuild({});
+const build = new Deno.Command(Deno.execPath(), {
+  args: [
+    'run',
+    '--config',
+    'deno.json',
+    '--allow-read',
+    '--allow-write',
+    '--allow-run',
+    '--allow-env',
+    '--allow-net',
+    '--allow-sys',
+    '--allow-ffi',
+    'jsr:@lessjs/adapter-vite/cli/build',
+  ],
+  stdout: 'inherit',
+  stderr: 'inherit',
+});
+
+const result = await build.output();
+Deno.exit(result.code);
