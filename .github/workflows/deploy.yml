@@ -24,4 +24,4 @@ jobs:
           deno-version: v2.7.14
 
       - name: Build
-        run: deno task build
+        run: deno run -A --config deno.json scripts/build.ts
