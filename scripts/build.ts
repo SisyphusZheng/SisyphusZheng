@@ -1,4 +1,5 @@
-const command = new Deno.Command(Deno.execPath(), {
+// Step 1: Generate data (still subprocess — only needs read/write, no env issue)
+const genCommand = new Deno.Command(Deno.execPath(), {
   args: [
     'run',
     '--config',
@@ -11,25 +12,23 @@ const command = new Deno.Command(Deno.execPath(), {
   stderr: 'inherit',
 });
 
-const generated = await command.output();
+const generated = await genCommand.output();
 if (!generated.success) Deno.exit(generated.code);
 
-// NOTE: Using -A (all permissions) for the Vite build step.
-// Explicit --allow-env does NOT grant Node.js compat layer (process.env) access
-// in Deno 2.x — picocolors (CJS dep of Vite) reads process.env.CI and triggers
-// NotCapable despite --allow-env being present. -A is the documented invocation
-// per @lessjs/adapter-vite/cli/build.ts header comment.
-const build = new Deno.Command(Deno.execPath(), {
-  args: [
-    'run',
-    '--config',
-    'deno.json',
-    '-A',
-    'jsr:@lessjs/adapter-vite/cli/build',
-  ],
-  stdout: 'inherit',
-  stderr: 'inherit',
-});
+// Step 2: Run Vite build IN-PROCESS.
+//
+// Previous approach: spawn `deno run -A jsr:@lessjs/adapter-vite/cli/build`
+// This failed because `deno task` intercepts `deno run` commands (see denoland/deno#33776)
+// and strips the -A flag, causing picocolors (CJS dep of Vite) to crash with
+// NotCapable when accessing process.env.CI via Deno's Node compat layer.
+//
+// Inlining the build avoids subprocess permission inheritance entirely.
+// The adapter-vite CLI is just: viteBuild({ configLoader: 'native' }).
+const { build: viteBuild } = await import('vite');
 
-const result = await build.output();
-Deno.exit(result.code);
+try {
+  await viteBuild({ configLoader: 'native' });
+} catch (error) {
+  console.error('Build failed:', error);
+  Deno.exit(1);
+}
