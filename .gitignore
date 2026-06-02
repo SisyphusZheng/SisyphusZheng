@@ -1,9 +1,7 @@
-node_modules/
 dist/
-.vite/
+node_modules/
 .less/
-.workbuddy/resume/
-resume.pdf
-*.log
-.DS_Store
-Thumbs.db
+.workbuddy/
+app/data/_generated-*.ts
+public/search-index.json
+
