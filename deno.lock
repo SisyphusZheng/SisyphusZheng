@@ -1,6 +1,7 @@
 {
   "version": "5",
   "specifiers": {
+    "jsr:@lessjs/adapter-vite@*": "0.28.5",
     "jsr:@lessjs/adapter-vite@~0.28.5": "0.28.5",
     "jsr:@lessjs/app@~0.28.5": "0.28.5",
     "jsr:@lessjs/cem@~0.28.5": "0.28.5",
@@ -57,7 +58,7 @@
     "@lessjs/app@0.28.5": {
       "integrity": "a87e0ee53252a47f0695601aee199c00ac65b2e322bf49095c3050093a113a8a",
       "dependencies": [
-        "jsr:@lessjs/adapter-vite",
+        "jsr:@lessjs/adapter-vite@~0.28.5",
         "jsr:@lessjs/content",
         "jsr:@lessjs/core",
         "jsr:@lessjs/i18n"

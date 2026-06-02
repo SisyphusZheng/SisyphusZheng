@@ -85,7 +85,7 @@
   "nodeModulesDir": "auto",
   "tasks": {
     "generate:data": "deno run --config deno.json --allow-read --allow-write scripts/generate-data.ts",
-    "build": "deno run --config deno.json --allow-read --allow-write --allow-run --allow-env --allow-net --allow-sys --allow-ffi scripts/build.ts",
+    "build": "deno run -A --config deno.json scripts/build.ts",
     "dev": "deno run --config deno.json --allow-read --allow-write --allow-run --allow-env --allow-net scripts/dev.ts",
     "preview": "deno run --config deno.json --allow-read --allow-net scripts/preview.ts"
   },
