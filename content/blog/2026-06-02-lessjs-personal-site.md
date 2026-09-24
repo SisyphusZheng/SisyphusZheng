@@ -13,9 +13,10 @@ relatedProjects:
 
 ## AppShell
 
-The site uses a custom `less-layout` override so the default framework shell does not leak into the
-product surface. The actual shell is a site-owned DSD component with a fixed cinematic header on the
-homepage and a sticky editorial header on reading pages.
+The site shell is a site-owned DSD component registered through the framework's
+`app/islands/app-shell.tsx` convention, so no default framework chrome reaches the product surface.
+The shell renders a fixed cinematic header on the homepage and a sticky editorial header on reading
+pages.
 
 ## Generated Data
 

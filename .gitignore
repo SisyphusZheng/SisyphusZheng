@@ -4,4 +4,8 @@ node_modules/
 .workbuddy/
 app/data/_generated-*.ts
 public/search-index.json
+.openElement/
+.v2c/
+.vite/
+.mimosa/
 
