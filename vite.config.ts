@@ -11,6 +11,5 @@ export default defineConfig({
         .pathname,
     },
   },
-  esbuild: { jsx: 'automatic', jsxImportSource: '@openelement/element' },
   plugins: [...openElement()],
 });
